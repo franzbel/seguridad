@@ -1,0 +1,153 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	margin: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:75%;
+}
+
+#main-nav{
+	height:29px;
+	/*position: fixed;*/
+	top: 0px;
+	background-image:url("nav-bg.gif");
+	background-repeat:repeat-x;
+	background-position:top left;
+	width:100%;
+}
+
+#main-nav ul,
+#main-nav li{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+}
+
+#main-nav ul{
+	height:29px;
+	line-height:29px;
+	background-image:url("nav-bar.gif");
+	background-position:right;
+	background-repeat:no-repeat;
+	float:left;
+	padding:0px 1px 0px 0px;
+	margin:0px 0px 0px 10px;
+}
+
+#main-nav li{
+	height:29px;
+	line-height:29px;
+	display:inline;
+	position:relative;
+	float:left;
+	width:80px;
+	text-align:center;
+}
+
+#main-nav li a{
+	height:29px;
+	width:80px;
+	text-align:center;
+	float:left;
+	background-image:url("nav-bar.gif");
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+
+
+#main-nav li a:link,
+#main-nav li a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#main-nav li.active a,
+#main-nav li a:hover{
+	background-image:url("active.gif");
+	background-repeat:no-repeat;
+	background-position:left;
+}
+
+
+img{
+	float: left;
+	padding: 46px;
+	padding-bottom: 5px
+}
+#pie{
+	position: fixed;
+	bottom: -20px;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+
+	background-image:url("nav-bg.gif");
+	background-repeat:repeat-x;
+	background-position:top left;
+}
+#pie span {
+	position: relative;
+	color: white;
+}
+p:first-letter{
+   text-transform: uppercase;
+}
+p {
+	margin: 15px;
+	padding-top: 200px;
+	color: #424242;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	margin: 40px auto;
+	text-transform: lowercase;
+	line-height: 145%;
+	font-size: 14pt;
+	font-variant: small-caps;
+}
+a { 	
+	font-style: normal;
+	font-variant: small-caps;
+	text-decoration: none;
+	color: #afafaf;
+    font-size: 14px;
+}
+
+.bio {
+	font-size: 8pt;
+	width: 240px;
+	color: #2f2f2f;
+	float: left;
+	padding: 10px;
+	padding-bottom: 40px;
+	margin: 10px;
+	color: rgb(0,0,0);
+	font-family:Arial;
+
+}
+
+
+
+#mensajes{
+
+	float: right;
+	height: 34px;
+	width: 300px;
+}
+
+#mensajes p {
+	margin: 5px;
+	padding-top: 2px;
+	color: #424242;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	margin: 4px auto;
+	text-transform: lowercase;
+	line-height: 145%;
+	font-size: 11pt;
+	font-variant: small-caps;
+}
